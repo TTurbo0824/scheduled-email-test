@@ -4,6 +4,9 @@
 - [nodemailer](https://nodemailer.com/about/)  
 - [node-crone](https://www.npmjs.com/package/node-cron)
 
+## 사용 API
+- [한국환경공단 에어코리아 대기오염정보](https://www.data.go.kr/data/15073861/openapi.do)
+
 ## .env instructions
 
 ```txt
@@ -13,7 +16,9 @@ APP_PASSWORD=구글_App_password
 API_KEY=에어코리아_OpenAPI_서비스키
 ```
 - 본인의 Google 계정(=이메일을 발송할 계정)을 통해 App passwords 생성 후, 발급받은 password를 APP_PASSWORD 값으로 넣어준다.
-- 에어코리아 OpenAPI 이용 가이드 ([https://www.airkorea.or.kr/web/board/5/329/?pMENU_NO=144](https://www.airkorea.or.kr/web/board/5/329/?pMENU_NO=144))
+- 발급받은 에어코리아 대기오염정보 API Key를 API_KEY 값으로 넣어준다.
+- [Google App Passwords 생성 가이드](https://support.google.com/accounts/answer/185833?hl=ko#zippy=)
+- [에어코리아 OpenAPI 이용 가이드](https://www.airkorea.or.kr/web/board/5/329/?pMENU_NO=144)
 
 ## node-cron
 아래 형식에 맞추어 이메일 발송 시간을 변경할 수 있다.
