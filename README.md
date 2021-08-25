@@ -1,8 +1,8 @@
 ## 사용 모듈
-- [node-fetch]("https://www.npmjs.com/package/node-fetch")
-- [dotenv]("https://www.npmjs.com/package/dotenv")
-- [nodemailer]("https://nodemailer.com/about/")  
-- [node-crone]("https://www.npmjs.com/package/node-cron")
+- [node-fetch](https://www.npmjs.com/package/node-fetch)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [nodemailer](https://nodemailer.com/about/)  
+- [node-crone](https://www.npmjs.com/package/node-cron)
 
 ## .env instructions
 
@@ -13,7 +13,7 @@ APP_PASSWORD=구글_App_password
 API_KEY=에어코리아_OpenAPI_서비스키
 ```
 - 본인의 Google 계정(=이메일을 발송할 계정)을 통해 App passwords 생성 후, 발급받은 password를 APP_PASSWORD 값으로 넣어준다.
-- 에어코리아 OpenAPI 이용 가이드 ([https://www.airkorea.or.kr/web/board/5/329/?pMENU_NO=144]("https://www.airkorea.or.kr/web/board/5/329/?pMENU_NO=144"))
+- 에어코리아 OpenAPI 이용 가이드 ([https://www.airkorea.or.kr/web/board/5/329/?pMENU_NO=144](https://www.airkorea.or.kr/web/board/5/329/?pMENU_NO=144))
 
 ## node-cron
 아래 형식에 맞추어 이메일 발송 시간을 변경할 수 있다.
