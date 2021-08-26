@@ -2,7 +2,7 @@
 - [node-fetch](https://www.npmjs.com/package/node-fetch)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [nodemailer](https://nodemailer.com/about/)  
-- [node-crone](https://www.npmjs.com/package/node-cron)
+- [node-cron](https://www.npmjs.com/package/node-cron)
 
 ## 사용 API
 - [한국환경공단 에어코리아 대기오염정보](https://www.data.go.kr/data/15073861/openapi.do)
